@@ -18,4 +18,18 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+Steps taken in code:
+1.load test data
+2.load labels
+3.load train data
+4.combine test data
+5.combine train data
+6.combine both data into same table
+7.apply column label on combined table
+8.apply label on activity in combined table
+9.extract only subject, activity id, mean variables, and standard deviation variables
+10.finalise labelling (for Step #4)
+11.get means for each variable, mean and std (Step #5)
+12.somehow the means variables didn't get labelled. rename the columns.
+13.print out
 
